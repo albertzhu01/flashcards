@@ -1,0 +1,85 @@
+body {
+  background-color: rgb(207, 226, 243);
+}
+
+#card {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  height: 320px;
+  width: 600px;
+  background-color: white;
+  font-size: 28pt;
+  font-family: "Lucida Console";
+}
+
+.switch {
+  float: left;
+  width: 10%;
+  padding: 8px;
+  margin-left: 17.5%;
+  background-color: navy;
+  color: white;
+  font-size: 14pt;
+  cursor: pointer;
+}
+
+.save {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  padding: 8px;
+  background-color: navy;
+  color: white;
+  font-size: 14pt;
+  cursor: pointer;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.center {
+  text-align: center;
+  background-color: rgb(207, 226, 243);;
+  color: black;
+}
+
+#progress {
+  font-size: 18pt;
+  font-family: "Lucida Console";
+  background-color: rgb(207, 226, 243);;
+  color: black;
+}
+
+.editor {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 200px;
+  height: 25px;
+  background-color: navy;
+  color: white;
+  font-size: 14pt;
+  text-align: center;
+}
+
+#kirby {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 8%;
+}
+
+.gotohome {
+  color: navy;
+  font-size: 14pt;
+}

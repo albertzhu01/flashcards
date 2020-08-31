@@ -1,0 +1,58 @@
+.homepage {
+  height: 90px;
+  padding: 8px;
+  color: navy;
+  font-size: 40pt;
+  text-align: center;
+}
+
+.homepage1 {
+  text-align: center;
+}
+
+.home {
+  display: inline;
+}
+
+.editorhome {
+  float: center;
+  margin-left: 1%;
+  margin-right: 1%;
+  font-size: 18pt;
+  cursor: pointer;
+  color: navy;
+}
+
+.account {
+  text-align: center;
+}
+
+#kirbyhome {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  width: 11%;
+}
+
+.decksh {
+  color: black;
+  font-size: 24pt;
+  text-align: center;
+}
+
+.decks {
+  padding: 2px;
+  color: black;
+  font-size: 18pt;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.desc {
+  font-size: 14pt;
+  margin-bottom: 5px;
+}
+

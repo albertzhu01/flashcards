@@ -1,0 +1,136 @@
+table,
+td,
+th {
+  border: 1px solid black;
+}
+
+table {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: white;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+th {
+  background-color: slategray;
+}
+
+body {
+  background-color: rgb(207, 226, 243);
+}
+
+#card {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 50%;
+  height: 360px;
+  width: 600px;
+  background-color: white;
+  font-size: 36pt;
+  font-family: "Lucida Console";
+}
+
+.switch {
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-left: 20%;
+  background-color: navy;
+  color: white;
+  font-size: 18pt;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.center {
+  text-align: center;
+  background-color: rgb(207, 226, 243);;
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#progress {
+  font-size: 24pt;
+  font-family: "Lucida Console";
+  background-color: rgb(207, 226, 243);;
+  color: black;
+}
+
+.editor {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 250px;
+  height: 60px;
+  background-color: navy;
+  color: white;
+  font-size: 18pt;
+}
+
+.user {
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  margin-top: 9px;
+}
+
+.adddel {
+  width: 10%;
+  background-color: navy;
+  color: white;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.del {
+  background-color: navy;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.gotohome {
+  color: navy;
+  font-size: 14pt;
+}
+
+.input {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid slategrey;
+}
+
+.editButton {
+  background-color: navy;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 5px;
+}
