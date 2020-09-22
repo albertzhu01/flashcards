@@ -11,8 +11,7 @@ class CardEditor extends React.Component {
     super(props);
     this.state = {
       cards: [
-        { front: 'Example Front', back: 'Example Back', editingF: false, editingB: false },
-        { front: 'Kirby', back: "Pink Ball of Fun", editingF: false, editingB: false },
+        { front: 'Example Front', back: 'Example Back', editingF: false, editingB: false }
       ],
       front: '', 
       back: '',
